@@ -1,0 +1,49 @@
+{
+  "name": "design-vancouver",
+  "private": true,
+  "description": "https://designvanwa.com",
+  "version": "0.1.0",
+  "author": "Riff Creative <hello@riffcreativestudio.com>",
+  "dependencies": {
+    "gatsby": "^2.3.11",
+    "gatsby-image": "^2.0.30",
+    "gatsby-plugin-jss": "^2.0.9",
+    "gatsby-plugin-manifest": "^2.0.19",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-plugin-typography": "^2.2.10",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-sharp": "^2.1.14",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0",
+    "react-jss": "10.0.0-alpha.16",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  },
+  "license": "COPYRIGHT (C) 2019 RIFF CREATIVE. ALL RIGHTS RESERVED.",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rimraf .cache public",
+    "squeakyclean": "rimraf .cache public node_modules",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riffcreative/design-vancouver"
+  },
+  "bugs": {
+    "url": "https://github.com/riffcreative/design-vancouver/issues"
+  }
+}
